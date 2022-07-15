@@ -26,5 +26,5 @@ stages:
   jobs:
   - template: templates/main.yml@devops.pipelines
     parameters:
-      solutionName: 'Countries'
+      solutionName: 'StringCalculator'
       version: '0.1.0.$(Build.BuildId)'
